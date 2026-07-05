@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw datasets
+data/raw/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
