@@ -11,3 +11,8 @@ data/raw/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+# Processed datasets
+data/processed/
+
+# VS Code temporary notebook
+notebooks/tempCodeRunnerFile.ipynb
