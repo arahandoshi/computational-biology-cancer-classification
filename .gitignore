@@ -1,18 +1,25 @@
-# macOS
-.DS_Store
+# Data
+data/raw/
+data/processed/
+
+# Trained models
+models/
+*.pt
+*.pth
+*.joblib
+*.pkl
 
 # Python
 .venv/
 __pycache__/
 *.pyc
 
-# Raw datasets
-data/raw/
-
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
-# Processed datasets
-data/processed/
 
-# VS Code temporary notebook
+# VS Code
+.vscode/
 notebooks/tempCodeRunnerFile.ipynb
+
+# macOS
+.DS_Store
