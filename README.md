@@ -1,103 +1,97 @@
-# Development and Comparative Evaluation of Machine Learning and Deep Learning Models for Multi-Cancer Type Classification from TCGA RNA-Seq Gene Expression Data
+# Multi-Cancer Classification Using TCGA-Derived RNA-Seq Gene Expression Data
 
-## Project Overview
+## Overview
 
-This project presents a comprehensive computational biology workflow for classifying multiple cancer types using transcriptomic (RNA-Seq) gene expression data derived from The Cancer Genome Atlas (TCGA). The study integrates biological understanding, data engineering, statistical preprocessing, classical machine learning, and deep learning within a fully reproducible Python-based analytical pipeline.
+This project develops an end-to-end computational biology pipeline for multi-class cancer classification using TCGA-derived RNA-Seq gene expression data. The workflow combines statistical analysis, feature engineering, classical machine learning, and deep learning within a reproducible Python environment.
 
-Rather than focusing solely on predictive performance, this project emphasizes scientific reproducibility, rigorous computational methodology, biological interpretation, and professional academic reporting. The workflow is designed to demonstrate advanced proficiency in scientific computing while following best practices commonly adopted in computational biology research.
+The project emphasizes not only predictive performance but also reproducibility, modular software design, and independent external validation using a separate public dataset.
 
 ---
 
 ## Objectives
 
-* Develop a reproducible computational biology workflow.
-* Acquire and analyze TCGA-derived RNA-Seq transcriptomic data.
-* Perform comprehensive exploratory data analysis.
-* Apply statistical preprocessing and feature engineering.
-* Develop multiple machine learning models using scikit-learn.
-* Develop deep learning models using PyTorch.
-* Compare predictive performance across computational approaches.
-* Interpret results within a biological context.
-* Produce a professional academic report documenting the complete study.
+- Develop a reproducible computational biology pipeline.
+- Perform exploratory analysis of transcriptomic data.
+- Reduce dimensionality through feature engineering.
+- Compare multiple machine learning algorithms.
+- Build a deep learning model using PyTorch.
+- Evaluate performance using internal and external validation.
 
 ---
 
-## Dataset
+## Project Structure
 
-* Source: TCGA (The Cancer Genome Atlas)
-* Access Platform: UCSC Xena
-* Data Type: RNA-Seq Gene Expression
-* Task: Multi-class Cancer Type Classification
+```text
+computational-biology-cancer-classification/
+
+├── data/
+├── docs/
+├── notebooks/
+├── src/
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Workflow
+
+1. Dataset acquisition
+2. Data preprocessing
+3. Exploratory data analysis
+4. Feature engineering
+5. Machine learning
+6. Deep learning
+7. Internal evaluation
+8. External validation
+9. Biological interpretation
 
 ---
 
 ## Technologies
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* scikit-learn
-* PyTorch
-* Jupyter Notebook
-* Git
-* GitHub
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- PyTorch
+- BioPandas
 
 ---
 
-## Project Workflow
+## Repository Documentation
 
-Literature Review
-
-↓
-
-Biological Background
-
-↓
-
-Dataset Acquisition
-
-↓
-
-Quality Assessment
-
-↓
-
-Exploratory Data Analysis
-
-↓
-
-Feature Engineering
-
-↓
-
-Machine Learning
-
-↓
-
-Deep Learning
-
-↓
-
-Comparative Evaluation
-
-↓
-
-Biological Interpretation
-
-↓
-
-Academic Report
+- Project proposal
+- Methodology
+- Analysis
+- References
+- Project log
 
 ---
 
-## Repository Structure
+## Results
 
-The repository follows a modular research-oriented structure separating data, notebooks, source code, documentation, figures, models, and reports to maximize reproducibility and maintainability.
+(To be completed after experiments.)
+
+---
+
+## External Validation
+
+The final model will be evaluated on an independent public RNA-Seq gene expression dataset that is not used during model development, providing a more rigorous assessment of generalization performance.
+
+---
+
+## Future Work
+
+- Additional cancer types
+- Multi-omics integration
+- Explainable AI
+- Clinical translation
 
 ---
 
 ## Author
 
-Arahan Doshi
+Arahan Atulya Doshi
