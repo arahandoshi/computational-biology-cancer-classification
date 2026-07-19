@@ -1,4 +1,5 @@
-Model,Accuracy,Training Time
-Logistic Regression,0.9937888198757764,0.07097601890563965
-Random Forest,0.9875776397515528,0.2628319263458252
-SVM,1.0,0.009297847747802734
+Model,Accuracy,Training Time (s)
+Logistic Regression,1.0,0.23
+Random Forest,1.0,0.61
+Support Vector Machine,1.0,0.08
+Artificial Neural Network,1.0,4.27
